@@ -1,5 +1,15 @@
 # NatShare API
-NatShare is a lightweight, easy-to-use native sharing API for Unity Engine. NatShare supports sharing text, images (using a `Texture2D`) and media files (using a `string` path). Currently, you can save media to the camera roll and open the native sharing UI:
+NatShare is a lightweight, easy-to-use native sharing API for Unity Engine. NatShare supports sharing text, images (using a `Texture2D`) and media files (using a `string` path). Currently, you can save media to the camera roll and open the native sharing UI.
+
+## Setup Instructions
+NatShare should be installed using the Unity Package Manager. In your `package.json` file, add the following dependency:
+```json
+{
+  "dependencies": {
+    "com.natsuite.natshare": "https://github.com/natsuite/NatShare?path=/Packages/com.natsuite.natshare"
+  }
+}
+```
 
 ## Native Sharing
 To share an image, you can use the `SharePayload`:
@@ -51,7 +61,8 @@ After building an Xcode project from Unity, add the following keys to the `Info.
 - iOS 9+
 
 ## Quick Tips
-- To discuss, report an issue, or request a feature, visit [Unity forums](https://forum.unity.com/threads/natshare-free-sharing-api.527074/) or [GitHub](https://github.com/olokobayusuf/NatShare-API)
-- Contact me at [olokobayusuf@gmail.com](mailto:olokobayusuf@gmail.com)
+- To discuss, report an issue, or request a feature, visit [Unity forums](https://forum.unity.com/threads/natshare-free-sharing-api.527074/) or [GitHub](https://github.com/natsuite/NatShare)
+- Check out the [online documentation](https://docs.natsuite.io/natshare)
+- Contact me at [yusuf@natsuite.io](mailto:yusuf@natsuite.io)
 
 Thank you very much!
