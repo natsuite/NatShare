@@ -1,3 +1,7 @@
+## NatShare 1.2.5
++ Migrated to Unity Package Manager.
++ Fixed iOS crash when sharing action was canceled by user (#110).
+
 ## NatShare 1.2.4
 + Added `ISharePayload.AddImage` overload which takes in a raw pixel buffer.
 + Fixed sharing not working on iOS 14.
