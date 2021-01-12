@@ -1,0 +1,20 @@
+{
+    "name": "com.natsuite.natshare",
+    "version": "1.2.5",
+    "displayName": "NatShare",
+    "description": "Cross-platform social sharing for Unity Engine.",
+    "unity": "2019.3",
+    "keywords": [
+        "camera roll",
+        "gallery",
+        "sharing",
+        "social",
+        "android",
+        "ios"
+    ],
+    "author": {
+        "name": "Yusuf Olokoba",
+        "email": "yusuf@natsuite.io",
+        "url": "https://github.com/natsuite"
+    }
+}
