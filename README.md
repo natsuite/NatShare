@@ -6,7 +6,7 @@ NatShare should be installed using the Unity Package Manager. In your `package.j
 ```json
 {
   "dependencies": {
-    "com.natsuite.natshare": "git+https://github.com/natsuite/NatShare?path=/Packages/com.natsuite.natshare"
+    "com.natsuite.natshare": "git+https://github.com/natsuite/NatShare"
   }
 }
 ```
